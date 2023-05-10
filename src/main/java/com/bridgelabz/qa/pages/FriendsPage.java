@@ -12,7 +12,7 @@ public class FriendsPage extends TestBase {
     WebElement friendRequestList;
     
     public FriendsPage() {
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver,  this);
     }
     
     public FriendRequestListpage friendRequestListButton() {
